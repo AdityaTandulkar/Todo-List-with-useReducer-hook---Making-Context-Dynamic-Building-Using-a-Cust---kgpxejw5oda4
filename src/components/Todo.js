@@ -5,7 +5,7 @@ const Todo = ({data, dispatch}) => {
         <div className="todo">
             <div className="todo-title">
                 {title}
-                <button className="todo-delete" onClick={()=>dispatch({type : 'DELETE', payload : id})}>delete</button>
+                <button className="todo-delete" onClick={()=>dispatch({type : 'DELETE', payload : id})}>Delete</button>
             </div>
         </div>
     )
